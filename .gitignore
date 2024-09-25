@@ -1,0 +1,4 @@
+quickdrop/.env
+
+db.sqlite3
+__pycache__/
