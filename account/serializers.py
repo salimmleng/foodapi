@@ -26,7 +26,6 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
         user.save()
         return user
        
-    
 
 
 class UserLoginSerializer(serializers.Serializer):

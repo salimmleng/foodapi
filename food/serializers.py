@@ -12,7 +12,7 @@ class FoodItemSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = FoodItem
-        fields = ['id', 'name', 'description', 'price', 'image']
+        fields = ['id', 'name', 'description', 'price']
 
 
 
